@@ -83,5 +83,4 @@ let updateTask = async () => {
     todos[update_task_index.index - 1] = update_task_index.new_task;
     console.log(`\n Task at index no. ${update_task_index.index - 1} Updated Sucessfully [For Updated List Check Option: "View Todo-List"] `);
 };
-
 main();
