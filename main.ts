@@ -76,8 +76,8 @@ let taskIndex = await inquirer.prompt([
   type: "number",
   message: "Enter the 'index no.' of the task you want to delete:",
 }
-
 ]);
+
 let deletedTask = todos.splice(taskIndex.index - 1, 1);
 console.log(`\n ${deletedTask} This task has been deleted successfully from your Todo-List\n`);
 }
